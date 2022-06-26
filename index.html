@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>calculator</title>
+	<link rel="stylesheet" type="text/css" href="calculator.css">
+</head>
+<body>
+	<div class="basket">
+		<div class="items">
+			<img src="img/casual boots.jpeg">
+			<p>Boots</p>
+			<select class="num">
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+				<option value="6">6</option>
+				<option value="7">7</option>
+				<option value="8">8</option>
+				<option value="9">9</option>
+				<option value="10">10</option>
+			</select>
+			<div>
+				<p class="total_price">120 C$</p>
+				<button class="remove">Remove this item</button>
+			</div>
+		</div>
+		<div class="items">
+			<img src="img/high-heeled shoes.jpeg">
+			<p>High-heeled shoes</p>
+			<select class="num">
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+				<option value="6">6</option>
+				<option value="7">7</option>
+				<option value="8">8</option>
+				<option value="9">9</option>
+				<option value="10">10</option>
+			</select>
+			<div>
+				<p class="total_price">89 C$</p>
+				<button class="remove">Remove this item</button>
+			</div>
+		</div>
+	</div>
+	<div id="check_out">
+		<p>Order summary</p>
+		<div>
+			<span>Merchandise subtotal</span>
+		    <span id="subtotal">209 C$</span>
+		</div>
+		<div>
+			<span>Shipping & Handling</span>
+		    <span id="shipping">Free</span>
+		</div>
+		<div>
+			<span>Estimated total</span>
+		    <span id="estimated_total">209 C$</span>
+		    <p>Shipping & taxes calculated during checkout</p>
+		</div>
+	</div>
+	<script type="text/javascript" src="calculator.js"></script>
+</body>
+</html>
